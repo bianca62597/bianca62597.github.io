@@ -1,0 +1,44 @@
+body {
+  padding: 20px;
+}
+
+.header-container {
+
+}
+
+#header-image {
+  width: 100%;
+}
+
+.nav-element {
+  display: inline;
+  margin: 40px;
+}
+
+nav {
+  text-align: center;
+}
+
+#about-aeropress {
+  float: left;
+  width: 50%;
+}
+
+#first-image {
+  float: right;
+  width: 30%;
+}
+
+#steps {
+  clear: both;
+}
+
+.step-container img {
+    float: right;
+    width: 20%;
+
+}
+
+.step-container {
+  clear: right;
+}
