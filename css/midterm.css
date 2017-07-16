@@ -39,6 +39,11 @@ nav {
 
 }
 
+.step-text {
+  width: 50%;
+  float: left;
+}
+
 .step-container {
   clear: right;
 }
