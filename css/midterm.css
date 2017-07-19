@@ -1,13 +1,13 @@
 body {
   padding: 20px;
-  font-family: Tahoma, Geneva, sans-serif;
   background-color: rgba(255, 228, 209, 0.5);
   color: #3c1d10;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .header-container {
   position: relative;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: 'Josefin Slab', serif;
 }
 
 .header-container h1, h2 {
@@ -63,22 +63,25 @@ nav {
 
 #about-aeropress ul{
   margin-bottom: 200px;
+  font-size: 20px;
 }
 
 #about-aeropress h3 {
   margin-top: 0;
+  font-size: 100px;
 }
 
 #about-aeropress p {
   margin-bottom: 50px;
+  font-size: 20px;
 }
 
 #main-content h3 {
-  font-size: 25px;
+  font-size: 32px;
 }
 
 #main-content h4 {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 #first-image {
@@ -91,8 +94,9 @@ nav {
 }
 
 .step-container img {
-  float: right;
+  float: left;
   width: 20%;
+  margin-left: 96px;
 }
 
 .step-text {
@@ -106,4 +110,17 @@ nav {
 
 .step-text h4 {
   margin-top: 0;
+}
+
+.step-container li {
+  font-size: 20px;
+}
+
+.top-page {
+  color: #3c1d10;
+  font-size: 18px;
+}
+
+.top-page:hover {
+  color: #ca8200;
 }
