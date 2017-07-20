@@ -1,6 +1,6 @@
 body {
   padding: 20px;
-  background-color: rgba(255, 228, 209, 0.5);
+  background-color: rgba(247, 228, 209, 0.5);
   color: #3c1d10;
   font-family: 'PT Sans', sans-serif;
 }
@@ -20,13 +20,19 @@ body {
 }
 
 .header-container h1 {
-  bottom: 100px;
-  font-size: 60px;
+  bottom: 80px;
+  font-size: 65px;
+  letter-spacing: -3px;
 }
 
 .header-container h2 {
-  bottom: 26px;
-  font-size: 43px;
+  bottom: 30px;
+  font-size: 45px;
+  letter-spacing: -2px;
+}
+
+nav ul {
+  padding: 0;
 }
 
 #header-image {
@@ -35,17 +41,28 @@ body {
 
 .nav-element {
   display: inline;
-  margin: 75px;
-  font-size: 25px;
+  margin: 30px;
+  font-size: 30px;
 }
 
 .nav-element a {
   text-decoration: none;
   color: #3c1d10;
+  font-family: 'Josefin Slab', serif;
+
 }
 
 .nav-element a:hover {
   color: #ca8200;
+}
+
+.nav-element-image {
+  display: inline;
+  margin: 0;
+}
+
+.nav-element-image img{
+  width: 30px;
 }
 
 nav {
@@ -53,7 +70,16 @@ nav {
 }
 
 #main-content {
-  margin-top: 100px;
+  padding: 0 100px;
+  margin-top: 25px;
+}
+
+#introduction {
+  background-color: rgba(255, 249, 245, 1);
+  float: left;
+  padding: 25px;
+  box-shadow: 0 0 7px #888888;
+  margin-bottom: 50px;
 }
 
 #about-aeropress {
@@ -61,23 +87,22 @@ nav {
   width: 50%;
 }
 
-#about-aeropress ul{
-  margin-bottom: 200px;
-  font-size: 20px;
+#about-aeropress ul {
+  font-size: 18px;
+  margin-bottom: 0;
 }
 
 #about-aeropress h3 {
   margin-top: 0;
-  font-size: 100px;
 }
 
 #about-aeropress p {
   margin-bottom: 50px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #main-content h3 {
-  font-size: 32px;
+  font-size: 30px;
 }
 
 #main-content h4 {
@@ -86,7 +111,8 @@ nav {
 
 #first-image {
   float: right;
-  width: 30%;
+  width: 45%;
+  margin-top: 17px;
 }
 
 #steps {
@@ -94,9 +120,9 @@ nav {
 }
 
 .step-container img {
-  float: left;
-  width: 20%;
-  margin-left: 96px;
+  float: right;
+  width: 38%;
+  margin-left: 50px;
 }
 
 .step-text {
@@ -105,22 +131,47 @@ nav {
 }
 
 .step-container {
-  clear: right;
+  float: left;
+  margin: 60px 0;
+  position: relative;
+  padding: 0 190px;
 }
 
-.step-text h4 {
+.step-container h4 {
+  text-align: center;
   margin-top: 0;
+}
+
+.step-content {
+  float: left;
+  padding: 60px;
+  box-shadow: 0 0 7px #888888;
+  background-color: #fff9f5;
+}
+
+.step-text a {
+  position: absolute;
+  bottom: 60px;
+  padding-left: 40px;
 }
 
 .step-container li {
   font-size: 20px;
 }
 
-.top-page {
+.break-container {
+  text-align: center;
+}
+
+.break-container img {
+  width: 200px;
+}
+
+#main-content a {
   color: #3c1d10;
   font-size: 18px;
 }
 
-.top-page:hover {
+#main-content a:hover {
   color: #ca8200;
 }
