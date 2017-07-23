@@ -1,0 +1,113 @@
+#flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#flex-container div {
+  width: 100%;
+  text-align: center;
+  padding: 300px 0;
+}
+
+.quote-text {
+  margin: 0 30px;
+}
+
+#q1 {
+  background-color: #5bb5cc;
+  font-family: 'Bellefair', serif;
+  color: #0e4208;
+  font-size: 40px;
+}
+
+#q2 {
+  background-color: #69128e;
+  font-family: 'Alegreya', serif;
+  color: #eac9d4;
+  font-size: 60px;
+}
+
+#perfect {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 55px;
+  letter-spacing: 2px;
+}
+
+#wonderful {
+  font-family: 'Dancing Script', cursive;
+  font-size: 95px;
+}
+
+#q3 {
+  background-color: #ec8e6b;
+  font-family: 'Coda', cursive;
+  color: #485667;
+  font-size: 55px;
+}
+
+#destiny {
+  font-size: 75px;
+  font-family: 'Carter One', cursive;
+  font-weight: 200;
+}
+
+#avoid {
+  color: #bd1212;
+}
+
+#q4 {
+  background-color: #809e86;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #d9e6f1;
+  font-size: 70px;
+}
+
+#q5 {
+  background-color: #f7f7b2;
+  font-family: 'Lemonada', cursive;
+  color: #8da99b;
+  font-size: 50px;
+}
+
+#as-know {
+  font-size: 40px;
+}
+
+#increases {
+  font-size: 60px;
+}
+
+#wonder {
+  font-size: 80px;
+}
+
+#deepens {
+  font-size: 100px;
+  color: #36403b;
+}
+
+#q6 {
+  background-color: #d092a7;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  color: #2a5a22;
+  font-size: 70px;
+}
+
+#q7 {
+  background-color: #adc4e2;
+  font-family: 'Anaheim', sans-serif;
+  color: #c76155;
+  font-size: 60px;
+}
+
+#your {
+  color: #fff10c;
+  font-weight: bold;
+}
+
+#q8 {
+  background-color: #e27136;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 80px;
+}
