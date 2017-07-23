@@ -14,13 +14,6 @@
 }
 
 #q1 {
-  background-color: #5bb5cc;
-  font-family: 'Bellefair', serif;
-  color: #0e4208;
-  font-size: 40px;
-}
-
-#q2 {
   background-color: #69128e;
   font-family: 'Alegreya', serif;
   color: #eac9d4;
@@ -31,11 +24,27 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 55px;
   letter-spacing: 2px;
+  color: white;
 }
 
 #wonderful {
   font-family: 'Dancing Script', cursive;
   font-size: 95px;
+  color: #ff70a0;
+}
+
+#q2 {
+  background-color: #5bb5cc;
+  font-family: 'Aubrey', cursive;
+  color: #0e4208;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+#smooth {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 65px;
+  letter-spacing: 8px;
 }
 
 #q3 {
