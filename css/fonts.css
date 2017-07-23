@@ -1,0 +1,30 @@
+#bellefair {
+  font-family: 'Bellefair', serif;
+  background-color: #9487a0;
+}
+
+#handlee {
+  font-family: 'Handlee', cursive;
+  color: #f5f2f2;
+  background-color: #3a4625;
+}
+
+#incon {
+  font-family: 'Inconsolata', monospace;
+  background-color: #ff8cd4;
+}
+
+#pontsans {
+  font-family: 'Pontano Sans', sans-serif;
+  color: #f5f2f2;
+  background-color: #317c7f;
+}
+
+#flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.font-container {
+  padding: 0 60px;
+}
