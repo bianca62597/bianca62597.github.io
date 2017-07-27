@@ -1,0 +1,35 @@
+body {
+  font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  color: #0a719c;
+}
+
+#images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+figure {
+  flex: 1 1 25%;
+  background-color: #efefef;
+  box-shadow: 0 0 7px grey;
+  padding: 20px;
+}
+
+figure img {
+  width: 100%;
+}
+
+figure p {
+  font-size: 1.2em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #0a719c;
+}
