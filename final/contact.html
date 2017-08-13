@@ -14,16 +14,18 @@
       <h2>by Bianca Melone</h2>
       <h3>bianca62597@gmail.com</h3>
     </header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="kit.html#kit-list">The Kit</a></li>
-        <li class="selected"><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-    <section id="contact">
-      <h4 id="form-header">Keep In Touch</h4>
-      <form>
+    <div id="nav-container">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="kit.html">The Kit</a></li>
+          <li class="selected"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="contact">
+      <h4 id="form-header">Keep In Touch!</h4>
+      <form action="mailto:bianca62597@gmail.com" enctype="text/plain" method="post">
         <div class="form-group">
           <label for="name">Name: </label>
           <input type="text" name="name" />
@@ -40,7 +42,7 @@
           <label for="email">Your email: </label>
           <input type="email" name="email" />
         </div>
-        <input type="submit" />
+        <input id="submit" type="submit" value="Submit"/>
       </form>
     </section>
   </body>

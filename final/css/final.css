@@ -42,6 +42,16 @@ header h3 {
   bottom: 90px;
 }
 
+#nav-container {
+  padding: 1px;
+  margin-top: -4px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-color: rgba(208, 201, 201, 0.9);
+  box-shadow: 0 0 10px grey;
+}
+
 nav {
   text-align: center;
 }
@@ -55,6 +65,7 @@ nav li {
   display: inline;
   margin: 0 100px;
   font-size: 30px;
+  font-weight: bold;
 }
 
 nav li a {
@@ -118,7 +129,7 @@ Kit Page
 #kit-list {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 50px 50px 50px;
+  padding: 20px 50px 50px 50px;
   justify-content: space-between;
 }
 
@@ -156,20 +167,27 @@ Contact Page
 
 #contact {
   width: 850px;
-  margin: 100px auto;
+  margin: 50px auto;
+  background-color: #afbaca;
+  box-shadow: 0 0 10px grey;
+  padding: 1px 30px 30px 30px;
 }
 
 #form-header {
   color: #8c0101;
   font-size: 45px;
   font-weight: normal;
-  margin-bottom: 20px;
+  text-align: center;
+  margin: 20px 0;
 }
 
 form {
   display: table;
   border-collapse: separate;
   border-spacing: 15px;
+  font-size: 20px;
+  margin: 0 auto;
+  position: relative;
 }
 
 .form-group {
@@ -177,10 +195,26 @@ form {
   margin-bottom: 20px;
 }
 
+form input, textarea {
+  background-color: #d0c9c9;
+  border-color: #d0c9c9;
+}
+
 form label, input, textarea {
   display: table-cell;
 }
 
+form input {
+  padding-left: 5px;
+}
+
 form textarea {
   vertical-align: top;
+  padding: 5px;
+}
+
+form #submit {
+  position: absolute;
+  right: 15px;
+  bottom: 30px;
 }
